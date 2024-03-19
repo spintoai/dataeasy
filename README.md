@@ -31,7 +31,7 @@ DataEasy has several prerequisites to run.
 ```bash
 python3 -m pip install --upgrade notebook
 ```
-- This command will upgrade jupyter notebook to the required version (v7) if you already have an old version.
+- This will install notebook, and will upgrade notebook if you already have an old version.
 
 3. __R__
 
