@@ -72,7 +72,7 @@ Do regression for me
 - You can straightforwardly use the right side panel (Notebook).
 - You can `save`, `save as`, or `open` a notebook.
 - Each cell is the unit of execution.
-- To execute the cell, press `shift+Enter`
+- To execute the cell, click the cell and press `shift+Enter`
 - To delete a cell, press `dd`
 - To add a cell, press `b` (below) or `a` (above)
 - Caution: If you save a notebook and open it again, the cells are in `unexecuted state`. To run all cells, you can click `Run` -> `Run All Cells`
