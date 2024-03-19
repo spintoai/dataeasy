@@ -1,1 +1,98 @@
-# dataeasy
+# DataEasy
+
+DataEasy is a software package that helps data analysis in R and Python.
+
+## Download
+
+Download the most recent version at
+https://github.com/spintoai/dataeasy/releases
+
+(Windows, Mac(Apple Silicon), and Linux versions are available)
+
+## Install
+
+DataEasy has several prerequisites to run.
+
+1. Download DataEasy and install it.
+
+2. Python
+
+- You have to install `python3`. Go https://www.python.org/downloads/
+  and click the yellow button to download. (Current version is 3.12.2 as of 2024 March)
+
+3. Jupyter Notebook
+
+- Open the command line tool (Command Prompt or PowerShell in Windows, or Terminal in Mac). Type in
+
+```bash
+python3 -m pip install notebook
+```
+
+4. R
+
+- If you are going to use R for data analysis, please download `R` from https://www.r-project.org/ and install it.
+
+5. R kernel
+
+- To use `R` in Jupyter Notebook, a kernel must be installed.
+- Open `R`, and type in the following.
+
+```R
+install.packages('IRkernel')
+IRkernel::installspec()
+```
+
+- On Mac OS, these commands must be executed in `R` opened in Terminal, not the `R app`.
+
+## Login
+
+- Opening the app will lead to the login page.
+- Register as a new user, and verify the email.
+- You need a subscription license to use DataEasy. You can purchase it by contacting support@spintoai.com
+
+## Use AI Assistant
+
+- On the left side, you have chat window to ask to AI assistant.
+- On the right side, you have Jupyter Notebook.
+- Select New -> Notebook to create a new notebook.
+- When prompted, select `R kernel`.
+- Now a new notebook has been created!
+- Let's type in the following in the chat window.
+
+```
+Store 100 random numbers to x and y
+```
+
+- Then let's type in the following
+
+```
+Do regression for me
+```
+
+## Use Notebook
+
+- You can straightforwardly use the right side panel (Notebook).
+- You can `save`, `save as`, or `open` a notebook.
+- Each cell is the unit of execution.
+- To execute the cell, press `shift+Enter`
+- To delete a cell, press `dd`
+- To add a cell, press `b` (below) or `a` (above)
+- Caution: If you save a notebook and open it again, the cells are in `unexecuted state`. To run all cells, you can click `Run` -> `Run All Cells`
+- If you don't like this behavior, save the current R state to a file by
+
+```R
+save.image(file='workspace.RData')
+```
+
+- and then load the state later by
+
+```R
+load('workspace.RData')
+```
+
+- Enjoy! 😊
+
+## Contact
+
+Any questions, suggestions, or bug reports to:
+support@spintoai.com
