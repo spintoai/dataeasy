@@ -19,7 +19,7 @@ https://github.com/spintoai/dataeasy/releases
 
 DataEasy has several prerequisites to run.
 
-1. __Python__
+1. __Python (v3)__
 
 - You have to install `python3`. Go https://www.python.org/downloads/
   and click the yellow button to download(Current version is 3.12.2 as of 2024 March). Then, install it.
