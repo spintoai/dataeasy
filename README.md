@@ -2,6 +2,8 @@
 
 DataEasy is a software package that helps data analysis in R and Python.
 
+![Screenshot](https://github.com/spintoai/dataeasy/blob/main/asset/screenshot1.png)
+
 ## Download
 
 Download the most recent version at
