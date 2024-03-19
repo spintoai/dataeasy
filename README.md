@@ -24,13 +24,14 @@ DataEasy has several prerequisites to run.
 - You have to install `python3`. Go https://www.python.org/downloads/
   and click the yellow button to download(Current version is 3.12.2 as of 2024 March). Then, install it.
 
-2. __Jupyter Notebook__
+2. __Jupyter Notebook (v7)__
 
 - Open the command line tool (Command Prompt or PowerShell in Windows, or Terminal in Mac). Type in
 
 ```bash
-python3 -m pip install notebook
+python3 -m pip install --upgrade notebook
 ```
+- This command will upgrade jupyter notebook to the required version (v7) if you already have an old version.
 
 3. __R__
 
