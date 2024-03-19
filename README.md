@@ -42,8 +42,6 @@ IRkernel::installspec()
 
 - On Mac OS, these commands must be executed in `R` opened in Terminal, not the `R app`.
 
-5. Download DataEasy and install it.
-
 ## Register & Subscribe
 
 - Opening the app will lead to the login page.
