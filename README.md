@@ -79,18 +79,18 @@ Do regression for me
 
 ## Use Notebook
 
-- You can straightforwardly use the right side panel (Notebook).
+- You can straightforwardly use the right side panel (Notebook). Jupyter notebook is a very convenient tool, even without the help of AI assistant!
 - You can `save`, `save as`, or `open` a notebook.
 - Each cell is the unit of execution. You can type in any R commands in the cell.
 - To execute the commands in the cell, press `shift+Enter`
-- To delete a cell, escape from code-edit mode by `esc` key and then press `dd`
+- To delete a cell, escape from the code-edit mode by `esc` key and then press `dd`
 - To add a cell, press `b` (below) or `a` (above)
 
 ## Save & Load
 
 - You can save and load a notebook freely.
-- It should be noted that you are saving/loading the contents of the notebook, but not the kernel state. 
-- If you open a saved notebook, the cells are in `unexecuted state`. To run all cells, you can click `Run` -> `Run All Cells`
+- It should be noted that you are only saving/loading the contents of the notebook, but not the kernel state. 
+- If you re-open a saved notebook, the cells are in `unexecuted state`. To run all cells, you can click `Run` -> `Run All Cells`
 - If you don't like this behavior and want the exact R state to be recovered, you can save the current R state to a file by
 ```R
 save.image(file='myWorkspace1.RData')
@@ -99,6 +99,7 @@ save.image(file='myWorkspace1.RData')
 ```R
 load('myWorkspace1.RData')
 ```
+which will restore the state (variables defined, packaged loaded, etc)
 - Or, if you want to save just one object (R variable), you can do it by
 ```R
 saveRDS(my_variable, file='my_variable.rds')
