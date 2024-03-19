@@ -90,7 +90,6 @@ save.image(file='myWorkspace1.RData')
 load('myWorkspace1.RData')
 ```
 - Or, if you want to save just one object (R variable), you can do it by
-```
 ```R
 saveRDS(my_variable, file='my_variable.rds')
 ```
