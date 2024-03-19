@@ -2,7 +2,8 @@
 
 DataEasy is a software package that helps data analysis in R and Python.
 
-![Screenshot](https://github.com/spintoai/dataeasy/blob/main/asset/screenshot1.png)
+[![Watch the video](https://img.youtube.com/vi/gPMz9_leUpw/maxresdefault.jpg)](https://www.youtube.com/watch?v=gPMz9_leUpw)
+
 
 ## Download
 
@@ -49,6 +50,8 @@ IRkernel::installspec()
 - Opening the app will lead to the login page.
 - Register as a new user, and verify the email.
 - You need a subscription license to use DataEasy. You can purchase it by contacting support@spintoai.com
+
+![Screenshot](https://github.com/spintoai/dataeasy/blob/main/asset/screenshot1.png)
 
 ## Use AI Assistant
 
