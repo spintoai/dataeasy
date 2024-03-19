@@ -48,6 +48,10 @@ IRkernel::installspec()
 
 - On Mac OS, these commands must be executed in `R` opened in Terminal, not the `R app`.
 
+5. __DataEasy__
+
+- You can finally install __DataEasy__ and use it!
+
 ## Register & Subscribe
 
 - Opening the app will lead to the login page.
