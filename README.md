@@ -75,17 +75,28 @@ Do regression for me
 - To execute the cell, click the cell and press `shift+Enter`
 - To delete a cell, press `dd`
 - To add a cell, press `b` (below) or `a` (above)
-- Caution: If you save a notebook and open it again, the cells are in `unexecuted state`. To run all cells, you can click `Run` -> `Run All Cells`
-- If you don't like this behavior and want the exact R state to be recovered, save the current R state to a file by
 
+## Save & Load
+
+- You can save and load a notebook freely.
+- It should be noted that you are saving/loading the contents of the notebook, but not the kernel state. 
+- If you open a saved notebook, the cells are in `unexecuted state`. To run all cells, you can click `Run` -> `Run All Cells`
+- If you don't like this behavior and want the exact R state to be recovered, you can save the current R state to a file by
 ```R
 save.image(file='myWorkspace1.RData')
 ```
-
 - and then load the state later by
-
 ```R
 load('myWorkspace1.RData')
+```
+- Or, what you want is to save just one object (variable), you can do it by
+```
+```R
+saveRDS(my_variable, file='my_variable.rds')
+```
+- And then load it later by
+```R
+my_variable <- readRDS('my_variable.rds')
 ```
 
 - Enjoy! 😊
