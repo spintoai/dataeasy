@@ -13,14 +13,12 @@ https://github.com/spintoai/dataeasy/releases
 
 DataEasy has several prerequisites to run.
 
-1. Download DataEasy and install it.
-
-2. Python
+1. Python
 
 - You have to install `python3`. Go https://www.python.org/downloads/
   and click the yellow button to download(Current version is 3.12.2 as of 2024 March). Then, install it.
 
-3. Jupyter Notebook
+2. Jupyter Notebook
 
 - Open the command line tool (Command Prompt or PowerShell in Windows, or Terminal in Mac). Type in
 
@@ -28,11 +26,11 @@ DataEasy has several prerequisites to run.
 python3 -m pip install notebook
 ```
 
-4. R
+3. R
 
 - If you are going to use `R` for data analysis, please download `R` from https://www.r-project.org/ and install it.
 
-5. R kernel
+4. R kernel
 
 - To use `R` in Jupyter Notebook, a kernel must be installed.
 - Open `R`, and type in the following.
@@ -43,6 +41,8 @@ IRkernel::installspec()
 ```
 
 - On Mac OS, these commands must be executed in `R` opened in Terminal, not the `R app`.
+
+5. Download DataEasy and install it.
 
 ## Register & Subscribe
 
