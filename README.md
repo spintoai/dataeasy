@@ -19,12 +19,12 @@ https://github.com/spintoai/dataeasy/releases
 
 DataEasy has several prerequisites to run.
 
-1. Python
+1. __Python__
 
 - You have to install `python3`. Go https://www.python.org/downloads/
   and click the yellow button to download(Current version is 3.12.2 as of 2024 March). Then, install it.
 
-2. Jupyter Notebook
+2. __Jupyter Notebook__
 
 - Open the command line tool (Command Prompt or PowerShell in Windows, or Terminal in Mac). Type in
 
@@ -32,11 +32,11 @@ DataEasy has several prerequisites to run.
 python3 -m pip install notebook
 ```
 
-3. R
+3. __R__
 
 - If you are going to use `R` for data analysis, please download `R` from https://www.r-project.org/ and install it.
 
-4. R kernel
+4. __R kernel__
 
 - To use `R` in Jupyter Notebook, a kernel must be installed.
 - Open `R`, and type in the following.
@@ -79,7 +79,7 @@ Do regression for me
 
 ## Use Notebook
 
-- You can straightforwardly use the right side panel (Notebook). Jupyter notebook is a very convenient tool, even without the help of AI assistant!
+- You can straightforwardly use the right side panel (Notebook). __Jupyter notebook__ is a very convenient tool, even without the help of AI assistant!
 - You can `save`, `save as`, or `open` a notebook.
 - Each cell is the unit of execution. You can type in any R commands in the cell.
 - To execute the commands in the cell, press `shift+Enter`
