@@ -81,8 +81,8 @@ Do regression for me
 
 - You can straightforwardly use the right side panel (Notebook).
 - You can `save`, `save as`, or `open` a notebook.
-- Each cell is the unit of execution.
-- To execute the cell, click the cell and press `shift+Enter`
+- Each cell is the unit of execution. You can type in any R commands in the cell.
+- To execute the commands in the cell, press `shift+Enter`
 - To delete a cell, press `dd`
 - To add a cell, press `b` (below) or `a` (above)
 
