@@ -2,6 +2,9 @@
 
 DataEasy is a software package that helps data analysis in R and Python.
 
+## Video Demo
+Click below to see how it works!
+
 [![Watch the video](https://img.youtube.com/vi/gPMz9_leUpw/maxresdefault.jpg)](https://www.youtube.com/watch?v=gPMz9_leUpw)
 
 
