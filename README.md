@@ -18,7 +18,7 @@ DataEasy has several prerequisites to run.
 2. Python
 
 - You have to install `python3`. Go https://www.python.org/downloads/
-  and click the yellow button to download. (Current version is 3.12.2 as of 2024 March)
+  and click the yellow button to download(Current version is 3.12.2 as of 2024 March). Then, install it.
 
 3. Jupyter Notebook
 
@@ -30,7 +30,7 @@ python3 -m pip install notebook
 
 4. R
 
-- If you are going to use R for data analysis, please download `R` from https://www.r-project.org/ and install it.
+- If you are going to use `R` for data analysis, please download `R` from https://www.r-project.org/ and install it.
 
 5. R kernel
 
@@ -44,7 +44,7 @@ IRkernel::installspec()
 
 - On Mac OS, these commands must be executed in `R` opened in Terminal, not the `R app`.
 
-## Login
+## Register & Subscribe
 
 - Opening the app will lead to the login page.
 - Register as a new user, and verify the email.
@@ -60,7 +60,7 @@ IRkernel::installspec()
 - Let's type in the following in the chat window.
 
 ```
-Store 100 random numbers to x and y
+100 random numbers to x and y
 ```
 
 - Then let's type in the following
@@ -78,16 +78,16 @@ Do regression for me
 - To delete a cell, press `dd`
 - To add a cell, press `b` (below) or `a` (above)
 - Caution: If you save a notebook and open it again, the cells are in `unexecuted state`. To run all cells, you can click `Run` -> `Run All Cells`
-- If you don't like this behavior, save the current R state to a file by
+- If you don't like this behavior and want the exact R state to be recovered, save the current R state to a file by
 
 ```R
-save.image(file='workspace.RData')
+save.image(file='myWorkspace1.RData')
 ```
 
 - and then load the state later by
 
 ```R
-load('workspace.RData')
+load('myWorkspace1.RData')
 ```
 
 - Enjoy! 😊
