@@ -54,7 +54,6 @@ IRkernel::installspec()
 - Register as a new user, and verify the email.
 - You need a subscription license to use DataEasy. You can purchase it by contacting support@spintoai.com
 
-![Screenshot](https://github.com/spintoai/dataeasy/blob/main/asset/screenshot1.png)
 
 ## Use AI Assistant
 
@@ -74,6 +73,9 @@ IRkernel::installspec()
 ```
 Do regression for me
 ```
+
+![Screenshot](https://github.com/spintoai/dataeasy/blob/main/asset/screenshot1.png)
+
 
 ## Use Notebook
 
