@@ -50,7 +50,7 @@ IRkernel::installspec()
 
 ## Use AI Assistant
 
-- On the left side, you have chat window to ask to AI assistant.
+- On the left side, you have a chat window to ask to the AI assistant.
 - On the right side, you have Jupyter Notebook.
 - Select New -> Notebook to create a new notebook.
 - When prompted, select `R kernel`.
