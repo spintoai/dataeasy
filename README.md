@@ -83,7 +83,7 @@ Do regression for me
 - You can `save`, `save as`, or `open` a notebook.
 - Each cell is the unit of execution. You can type in any R commands in the cell.
 - To execute the commands in the cell, press `shift+Enter`
-- To delete a cell, press `dd`
+- To delete a cell, escape from code-edit mode by `esc` key and then press `dd`
 - To add a cell, press `b` (below) or `a` (above)
 
 ## Save & Load
